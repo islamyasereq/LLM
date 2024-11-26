@@ -20,7 +20,7 @@ analysis attacks. As the open-set classification methods, we use K-LND, OpenMax,
 - OpenMax
 - Background class
 
-# Using TrafficGPT
+# Using LLM
 
 First, clone the git repo and install the requirements.
 ```
