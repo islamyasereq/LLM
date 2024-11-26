@@ -1,7 +1,4 @@
-## TrafficGPT: An LLM Approach for Open-Set Encrypted Traffic Classification
-
-![](https://img.shields.io/badge/license-MIT-000000.svg)
-[![arXiv](https://img.shields.io/badge/arXiv-1909.05658-<color>.svg)]()
+LLM Approach for Open-Set Encrypted Traffic Classification
 
 **Note:**
 - ⭐ **Please leave a <font color='orange'>STAR</font> if you like this project!** ⭐
@@ -56,16 +53,4 @@ python3 evaluate.py --max_len 1024 --batch_size 12 --epochs 3 --num_labels 200 -
 python3 evaluate.py --max_len 1024 --batch_size 12 --epochs 3 --num_labels 4 --K_number 4 --TH_value 0.9 --dataset DC
 python3 evaluate.py --max_len 1024 --batch_size 12 --epochs 3 --num_labels 12 --K_number 5 --TH_value 0.8 --dataset USTC
 python3 evaluate.py --max_len 1024 --batch_size 12 --epochs 5 --num_labels 75 --K_number 20 --TH_value 0.8 --dataset CSTNe
-```
-
-# Citations
-If you are using this work for academic purposes, please cite our [paper](https://dl.acm.org/doi/abs/10.1145/3674213.3674217).
-```
-@inproceedings{ginige2024trafficgpt,
-  title={TrafficGPT: An LLM Approach for Open-Set Encrypted Traffic Classification},
-  author={Ginige, Yasod and Dahanayaka, Thilini and Seneviratne, Suranga},
-  booktitle={Proceedings of the Asian Internet Engineering Conference 2024},
-  pages={26--35},
-  year={2024}
-}
 ```
